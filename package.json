@@ -1,0 +1,26 @@
+{
+  "name": "react-dynamic-env",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "React",
+    "front-end",
+    "dynamic env",
+    "javascript",
+    "dynamic environment",
+    "docker"
+  ],
+  "author": {
+    "name": "Artur Petrosyan",
+    "url": "https://stayyourself.art/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ArturPetrosyan003/angular_dynamic-env"
+  },
+  "license": "MIT"
+}
