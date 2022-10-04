@@ -1,7 +1,7 @@
 const loadConfig = async () => {
-  var result = {};
+  let result = {};
 
-  await fetch("/assets/env").then(async (res) => {
+  await fetch("/env").then(async (res) => {
     await res.text().then((config) => {
       const configArray = config.split(" ")[0].replace("\r\n", ",").split(",");
 

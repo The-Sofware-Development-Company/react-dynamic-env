@@ -18,13 +18,13 @@ import loadConfig from "react-dynamic-env";
 
 ## Usage
 
-Create `env` (without dot) file and put it into `public/assets` folder.
+Create `env` (without dot) file and put it into `public` folder.
 If you are using Docker create a Docker Volume in `docker-compose.yml`, if not skip this step.
 
 ```yml
 ...
 volumes:
-      - ./public/assets/env:path/to/your/project/in/container/assets/env
+      - ./public/env:path/to/your/project/in/container/assets/env
 ```
 
 Then load the config file where it's needed by calling `loadConfig` method, see the example below :point_down:
